@@ -17,7 +17,7 @@ if (user_id) {
   }
 
 
-
+console.log("pls work")
 document.cookie = `userInfo=${data.name}; expires=Thu, 01 Jan 2024 00:00:00 UTC; path=/`;
 const cookies = document.cookie;
 console.log(cookies)
